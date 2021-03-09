@@ -1,1 +1,1 @@
-# pico_person_detection_thermal
+# Raspberry Pi Pico Person Detection using Thermal Camera
