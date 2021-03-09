@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/ELF2UF2Build
+/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/ELF2UF2Build.rule
+/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/ELF2UF2Build-complete.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule

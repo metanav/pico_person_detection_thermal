@@ -1,0 +1,5 @@
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/CMakeFiles/edit_cache.dir
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+/Users/naveen/pico_person_detection_thermal/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
