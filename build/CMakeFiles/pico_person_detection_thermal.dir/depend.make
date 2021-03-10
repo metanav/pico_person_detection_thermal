@@ -100,6 +100,32 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: ../MLX90640_API.c
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: ../MLX90640_API.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: ../MLX90640_I2C_Driver.h
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/boards/include/boards/pico.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/types.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/include/pico/time.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: ../MLX90640_I2C_Driver.c
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: ../MLX90640_I2C_Driver.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: generated/pico_base/pico/config_autogen.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: generated/pico_base/pico/version.h
+
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/naveen/pico/pico-sdk/src/boards/include/boards/pico.h
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico.h
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
@@ -814,12 +840,10 @@ CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/include/pico/time.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
@@ -827,12 +851,13 @@ CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: ../MLX90640_API.h
+CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: ../MLX90640_I2C_Driver.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: ../pico_person_detection_thermal.c
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: generated/pico_base/pico/version.h

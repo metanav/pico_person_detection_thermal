@@ -89,9 +89,35 @@ CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c -o CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s
 
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: ../MLX90640_I2C_Driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: ../MLX90640_API.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_API.c
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_API.c > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_API.c -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s
+
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -104,7 +130,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +143,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -130,7 +156,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -143,7 +169,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -156,7 +182,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -169,12 +195,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -187,7 +213,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -200,7 +226,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -213,7 +239,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -226,7 +252,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -239,7 +265,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -252,7 +278,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -265,7 +291,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -278,7 +304,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -291,7 +317,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -304,7 +330,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -317,7 +343,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -330,7 +356,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -343,7 +369,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -356,7 +382,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -369,7 +395,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -382,7 +408,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -395,12 +421,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -413,12 +439,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -431,17 +457,17 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -454,7 +480,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -467,22 +493,22 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -495,7 +521,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -508,12 +534,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -526,17 +552,17 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -549,7 +575,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -562,7 +588,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -575,7 +601,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -588,7 +614,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -602,6 +628,8 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 # Object files for target pico_person_detection_thermal
 pico_person_detection_thermal_OBJECTS = \
 "CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -653,6 +681,8 @@ pico_person_detection_thermal_OBJECTS = \
 pico_person_detection_thermal_EXTERNAL_OBJECTS =
 
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -702,7 +732,7 @@ pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/build.make
 pico_person_detection_thermal.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable pico_person_detection_thermal.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable pico_person_detection_thermal.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_person_detection_thermal.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objcopy -Oihex pico_person_detection_thermal.elf pico_person_detection_thermal.hex
 	/usr/local/bin/arm-none-eabi-objcopy -Obinary pico_person_detection_thermal.elf pico_person_detection_thermal.bin

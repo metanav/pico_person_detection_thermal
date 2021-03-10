@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj"
+  "CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj"
   "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
   "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"

@@ -84,6 +84,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/naveen/pico_person_detection_thermal/MLX90640_API.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj"
+  "/Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"

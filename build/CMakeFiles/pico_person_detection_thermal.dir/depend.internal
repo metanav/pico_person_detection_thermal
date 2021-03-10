@@ -100,6 +100,32 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
+ /Users/naveen/pico_person_detection_thermal/MLX90640_API.c
+ /Users/naveen/pico_person_detection_thermal/MLX90640_API.h
+ /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.h
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
+ /Users/naveen/pico/pico-sdk/src/boards/include/boards/pico.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/error.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico/types.h
+ /Users/naveen/pico/pico-sdk/src/common/pico_time/include/pico/time.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
+ /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
+ /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
+ /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
+ /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c
+ /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  /Users/naveen/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/naveen/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -815,12 +841,10 @@ CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
  /Users/naveen/pico/pico-sdk/src/common/pico_time/include/pico/time.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
- /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
- /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h
@@ -828,12 +852,13 @@ CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
  /Users/naveen/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
- /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ /Users/naveen/pico_person_detection_thermal/MLX90640_API.h
+ /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.h
  /Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h

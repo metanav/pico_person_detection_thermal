@@ -194,6 +194,60 @@ bs2_default/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
 
+MLX90640_API.obj: MLX90640_API.c.obj
+
+.PHONY : MLX90640_API.obj
+
+# target to build an object file
+MLX90640_API.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
+.PHONY : MLX90640_API.c.obj
+
+MLX90640_API.i: MLX90640_API.c.i
+
+.PHONY : MLX90640_API.i
+
+# target to preprocess a source file
+MLX90640_API.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i
+.PHONY : MLX90640_API.c.i
+
+MLX90640_API.s: MLX90640_API.c.s
+
+.PHONY : MLX90640_API.s
+
+# target to generate assembly for a file
+MLX90640_API.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s
+.PHONY : MLX90640_API.c.s
+
+MLX90640_I2C_Driver.obj: MLX90640_I2C_Driver.c.obj
+
+.PHONY : MLX90640_I2C_Driver.obj
+
+# target to build an object file
+MLX90640_I2C_Driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
+.PHONY : MLX90640_I2C_Driver.c.obj
+
+MLX90640_I2C_Driver.i: MLX90640_I2C_Driver.c.i
+
+.PHONY : MLX90640_I2C_Driver.i
+
+# target to preprocess a source file
+MLX90640_I2C_Driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i
+.PHONY : MLX90640_I2C_Driver.c.i
+
+MLX90640_I2C_Driver.s: MLX90640_I2C_Driver.c.s
+
+.PHONY : MLX90640_I2C_Driver.s
+
+# target to generate assembly for a file
+MLX90640_I2C_Driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s
+.PHONY : MLX90640_I2C_Driver.c.s
+
 Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 .PHONY : Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -1278,6 +1332,12 @@ help:
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... bs2_default"
 	@echo "... pico_person_detection_thermal"
+	@echo "... MLX90640_API.obj"
+	@echo "... MLX90640_API.i"
+	@echo "... MLX90640_API.s"
+	@echo "... MLX90640_I2C_Driver.obj"
+	@echo "... MLX90640_I2C_Driver.i"
+	@echo "... MLX90640_I2C_Driver.s"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.s"
