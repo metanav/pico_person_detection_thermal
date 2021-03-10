@@ -76,18 +76,18 @@ include CMakeFiles/pico_person_detection_thermal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pico_person_detection_thermal.dir/flags.make
 
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj: ../pico_person_detection_thermal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj -c /Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c
+CMakeFiles/pico_person_detection_thermal.dir/main.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico_person_detection_thermal.dir/main.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/main.c.obj -c /Users/naveen/pico_person_detection_thermal/main.c
 
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c > CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.i
+CMakeFiles/pico_person_detection_thermal.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/main.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/main.c > CMakeFiles/pico_person_detection_thermal.dir/main.c.i
 
-CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c -o CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s
+CMakeFiles/pico_person_detection_thermal.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/main.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/main.c -o CMakeFiles/pico_person_detection_thermal.dir/main.c.s
 
 CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: ../MLX90640_I2C_Driver.c
@@ -599,22 +599,243 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
-CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
-CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -627,7 +848,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 # Object files for target pico_person_detection_thermal
 pico_person_detection_thermal_OBJECTS = \
-"CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/main.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
@@ -674,13 +895,30 @@ pico_person_detection_thermal_OBJECTS = \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 
 # External object files for target pico_person_detection_thermal
 pico_person_detection_thermal_EXTERNAL_OBJECTS =
 
-pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/main.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -727,12 +965,29 @@ pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/build.make
 pico_person_detection_thermal.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable pico_person_detection_thermal.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX executable pico_person_detection_thermal.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_person_detection_thermal.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objcopy -Oihex pico_person_detection_thermal.elf pico_person_detection_thermal.hex
 	/usr/local/bin/arm-none-eabi-objcopy -Obinary pico_person_detection_thermal.elf pico_person_detection_thermal.bin

@@ -22,6 +22,9 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
@@ -39,7 +42,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_PRINTF_PICO=1"
   "PICO_PROGRAM_NAME=\"pico_person_detection_thermal\""
   "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"pico_person_detection_thermal\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -80,12 +83,31 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/include"
   "/Users/naveen/pico/pico-sdk/src/common/pico_binary_info/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/hw"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/naveen/pico_person_detection_thermal/MLX90640_API.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj"
   "/Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
   "/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
@@ -110,6 +132,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
@@ -118,14 +141,18 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-  "/Users/naveen/pico_person_detection_thermal/pico_person_detection_thermal.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj"
+  "/Users/naveen/pico_person_detection_thermal/main.c" "/Users/naveen/pico_person_detection_thermal/build/CMakeFiles/pico_person_detection_thermal.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
@@ -143,7 +170,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "PICO_PRINTF_PICO=1"
   "PICO_PROGRAM_NAME=\"pico_person_detection_thermal\""
   "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"pico_person_detection_thermal\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -184,7 +211,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/include"
   "/Users/naveen/pico/pico-sdk/src/common/pico_binary_info/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/hw"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
@@ -194,6 +225,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CFG_TUSB_DEBUG=1"
+  "CFG_TUSB_MCU=OPT_MCU_RP2040"
+  "CFG_TUSB_OS=OPT_OS_PICO"
   "PICO_BIT_OPS_PICO=1"
   "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
@@ -211,7 +245,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PICO_PRINTF_PICO=1"
   "PICO_PROGRAM_NAME=\"pico_person_detection_thermal\""
   "PICO_PROGRAM_VERSION_STRING=\"0.1\""
-  "PICO_STDIO_UART=1"
+  "PICO_STDIO_USB=1"
   "PICO_TARGET_NAME=\"pico_person_detection_thermal\""
   "PICO_USE_BLOCKED_RAM=0"
   )
@@ -252,7 +286,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/include"
   "/Users/naveen/pico/pico-sdk/src/common/pico_binary_info/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common"
+  "/Users/naveen/pico/pico-sdk/lib/tinyusb/hw"
+  "/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 

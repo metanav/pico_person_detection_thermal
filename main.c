@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <tusb.h>
 #include "pico/stdlib.h"
 #include "MLX90640_API.h"
 #include "MLX90640_I2C_Driver.h"
@@ -76,6 +77,7 @@ float get_thermal_image(float* input, int length)
 int main()
 {
     stdio_init_all();
+    while (!tud_cdc_connected()) { sleep_ms(100);  }
 
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);

@@ -248,6 +248,411 @@ MLX90640_I2C_Driver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s
 .PHONY : MLX90640_I2C_Driver.c.s
 
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
 Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 .PHONY : Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -950,6 +1355,33 @@ Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 .PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
@@ -1238,32 +1670,59 @@ Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+
+# target to build an object file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
@@ -1292,32 +1751,32 @@ Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-pico_person_detection_thermal.obj: pico_person_detection_thermal.c.obj
+main.obj: main.c.obj
 
-.PHONY : pico_person_detection_thermal.obj
+.PHONY : main.obj
 
 # target to build an object file
-pico_person_detection_thermal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.obj
-.PHONY : pico_person_detection_thermal.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.obj
+.PHONY : main.c.obj
 
-pico_person_detection_thermal.i: pico_person_detection_thermal.c.i
+main.i: main.c.i
 
-.PHONY : pico_person_detection_thermal.i
+.PHONY : main.i
 
 # target to preprocess a source file
-pico_person_detection_thermal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.i
-.PHONY : pico_person_detection_thermal.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.i
+.PHONY : main.c.i
 
-pico_person_detection_thermal.s: pico_person_detection_thermal.c.s
+main.s: main.c.s
 
-.PHONY : pico_person_detection_thermal.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-pico_person_detection_thermal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/pico_person_detection_thermal.c.s
-.PHONY : pico_person_detection_thermal.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -1338,6 +1797,51 @@ help:
 	@echo "... MLX90640_I2C_Driver.obj"
 	@echo "... MLX90640_I2C_Driver.i"
 	@echo "... MLX90640_I2C_Driver.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1416,6 +1920,9 @@ help:
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
@@ -1448,15 +1955,18 @@ help:
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... pico_person_detection_thermal.obj"
-	@echo "... pico_person_detection_thermal.i"
-	@echo "... pico_person_detection_thermal.s"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
