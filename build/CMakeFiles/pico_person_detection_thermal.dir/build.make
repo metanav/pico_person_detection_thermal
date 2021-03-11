@@ -76,48 +76,1205 @@ include CMakeFiles/pico_person_detection_thermal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pico_person_detection_thermal.dir/flags.make
 
-CMakeFiles/pico_person_detection_thermal.dir/main.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
-CMakeFiles/pico_person_detection_thermal.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico_person_detection_thermal.dir/main.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/main.c.obj -c /Users/naveen/pico_person_detection_thermal/main.c
+CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj -c /Users/naveen/pico_person_detection_thermal/main.cpp
 
-CMakeFiles/pico_person_detection_thermal.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/main.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/main.c > CMakeFiles/pico_person_detection_thermal.dir/main.c.i
+CMakeFiles/pico_person_detection_thermal.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/main.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/main.cpp > CMakeFiles/pico_person_detection_thermal.dir/main.cpp.i
 
-CMakeFiles/pico_person_detection_thermal.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/main.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/main.c -o CMakeFiles/pico_person_detection_thermal.dir/main.c.s
+CMakeFiles/pico_person_detection_thermal.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/main.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/main.cpp -o CMakeFiles/pico_person_detection_thermal.dir/main.cpp.s
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj: ../MLX90640_I2C_Driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c
+CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj: ../ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/ei_classifier_porting.cpp
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i
+CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.i
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.c -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s
+CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.s
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj: ../MLX90640_API.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_API.c
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj: ../MLX90640_I2C_Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.cpp
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_API.c > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.cpp > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.i
 
-CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_API.c -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_I2C_Driver.cpp -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj: ../MLX90640_API.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj -c /Users/naveen/pico_person_detection_thermal/MLX90640_API.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/MLX90640_API.cpp > CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/MLX90640_API.cpp -o CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj: ../edge-impulse-sdk/classifier/ei_run_classifier_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj: ../edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj: ../edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj: ../edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj: ../edge-impulse-sdk/dsp/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/memory.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/memory.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/dsp/memory.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj: ../edge-impulse-sdk/porting/arduino/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj: ../edge-impulse-sdk/porting/ecm3532/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj: ../edge-impulse-sdk/porting/himax/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj: ../edge-impulse-sdk/porting/mbed/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj: ../edge-impulse-sdk/porting/mingw32/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj: ../edge-impulse-sdk/porting/posix/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj: ../edge-impulse-sdk/porting/silabs/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj: ../edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj: ../edge-impulse-sdk/porting/zephyr/debug_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/debug_log.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/debug_log.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/debug_log.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj: ../edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj: ../edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj: ../edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj: ../edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj: ../edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj: ../edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj: ../edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj: ../edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj: ../edge-impulse-sdk/tensorflow/lite/c/common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj -c /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/c/common.c
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/c/common.c > CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.i
+
+CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/naveen/pico_person_detection_thermal/edge-impulse-sdk/tensorflow/lite/c/common.c -o CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s
+
+CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
+CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj: ../tflite-model/trained_model_compiled.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj -c /Users/naveen/pico_person_detection_thermal/tflite-model/trained_model_compiled.cpp
+
+CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/naveen/pico_person_detection_thermal/tflite-model/trained_model_compiled.cpp > CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.i
+
+CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/naveen/pico_person_detection_thermal/tflite-model/trained_model_compiled.cpp -o CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.s
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -130,7 +1287,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -143,7 +1300,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -156,7 +1313,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -169,7 +1326,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -182,7 +1339,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -195,12 +1352,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -213,7 +1370,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -226,7 +1383,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -239,7 +1396,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -252,7 +1409,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -265,7 +1422,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -278,7 +1435,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -291,7 +1448,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -304,7 +1461,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -317,7 +1474,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -330,7 +1487,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/comm
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -343,7 +1500,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -356,7 +1513,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -369,7 +1526,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -382,7 +1539,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -395,7 +1552,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -408,7 +1565,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -421,12 +1578,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -439,12 +1596,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -457,17 +1614,17 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -480,7 +1637,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -493,22 +1650,22 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -521,7 +1678,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -534,12 +1691,12 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -552,17 +1709,17 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building ASM object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -575,7 +1732,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -588,7 +1745,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -601,7 +1758,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -614,7 +1771,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -627,7 +1784,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -640,7 +1797,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -653,7 +1810,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -666,7 +1823,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -679,7 +1836,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -692,7 +1849,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -705,7 +1862,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -718,7 +1875,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -731,7 +1888,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -744,7 +1901,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -757,7 +1914,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
@@ -770,7 +1927,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -783,7 +1940,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -796,7 +1953,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -809,7 +1966,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -822,7 +1979,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/lib/tiny
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -835,7 +1992,7 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/pico_person_detection_thermal.dir/flags.make
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -848,9 +2005,98 @@ CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_
 
 # Object files for target pico_person_detection_thermal
 pico_person_detection_thermal_OBJECTS = \
-"CMakeFiles/pico_person_detection_thermal.dir/main.c.obj" \
-"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj" \
-"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj" \
+"CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -918,9 +2164,98 @@ pico_person_detection_thermal_OBJECTS = \
 # External object files for target pico_person_detection_thermal
 pico_person_detection_thermal_EXTERNAL_OBJECTS =
 
-pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/main.c.obj
-pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
-pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj
+pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -987,7 +2322,7 @@ pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/build.make
 pico_person_detection_thermal.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pico_person_detection_thermal.elf: CMakeFiles/pico_person_detection_thermal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX executable pico_person_detection_thermal.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/naveen/pico_person_detection_thermal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Linking CXX executable pico_person_detection_thermal.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_person_detection_thermal.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objcopy -Oihex pico_person_detection_thermal.elf pico_person_detection_thermal.hex
 	/usr/local/bin/arm-none-eabi-objcopy -Obinary pico_person_detection_thermal.elf pico_person_detection_thermal.bin

@@ -95,6 +95,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.1/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
+  "../edge-impulse-sdk/cmake/utils.cmake"
   "../pico_sdk_import.cmake"
   "/usr/local/Cellar/cmake/3.19.1/share/cmake/Modules/CMakeASMInformation.cmake"
   "/usr/local/Cellar/cmake/3.19.1/share/cmake/Modules/CMakeCInformation.cmake"

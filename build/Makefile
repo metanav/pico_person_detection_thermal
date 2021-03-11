@@ -194,59 +194,59 @@ bs2_default/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
 
-MLX90640_API.obj: MLX90640_API.c.obj
+MLX90640_API.obj: MLX90640_API.cpp.obj
 
 .PHONY : MLX90640_API.obj
 
 # target to build an object file
-MLX90640_API.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.obj
-.PHONY : MLX90640_API.c.obj
+MLX90640_API.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.obj
+.PHONY : MLX90640_API.cpp.obj
 
-MLX90640_API.i: MLX90640_API.c.i
+MLX90640_API.i: MLX90640_API.cpp.i
 
 .PHONY : MLX90640_API.i
 
 # target to preprocess a source file
-MLX90640_API.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.i
-.PHONY : MLX90640_API.c.i
+MLX90640_API.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.i
+.PHONY : MLX90640_API.cpp.i
 
-MLX90640_API.s: MLX90640_API.c.s
+MLX90640_API.s: MLX90640_API.cpp.s
 
 .PHONY : MLX90640_API.s
 
 # target to generate assembly for a file
-MLX90640_API.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.c.s
-.PHONY : MLX90640_API.c.s
+MLX90640_API.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_API.cpp.s
+.PHONY : MLX90640_API.cpp.s
 
-MLX90640_I2C_Driver.obj: MLX90640_I2C_Driver.c.obj
+MLX90640_I2C_Driver.obj: MLX90640_I2C_Driver.cpp.obj
 
 .PHONY : MLX90640_I2C_Driver.obj
 
 # target to build an object file
-MLX90640_I2C_Driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.obj
-.PHONY : MLX90640_I2C_Driver.c.obj
+MLX90640_I2C_Driver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.obj
+.PHONY : MLX90640_I2C_Driver.cpp.obj
 
-MLX90640_I2C_Driver.i: MLX90640_I2C_Driver.c.i
+MLX90640_I2C_Driver.i: MLX90640_I2C_Driver.cpp.i
 
 .PHONY : MLX90640_I2C_Driver.i
 
 # target to preprocess a source file
-MLX90640_I2C_Driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.i
-.PHONY : MLX90640_I2C_Driver.c.i
+MLX90640_I2C_Driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.i
+.PHONY : MLX90640_I2C_Driver.cpp.i
 
-MLX90640_I2C_Driver.s: MLX90640_I2C_Driver.c.s
+MLX90640_I2C_Driver.s: MLX90640_I2C_Driver.cpp.s
 
 .PHONY : MLX90640_I2C_Driver.s
 
 # target to generate assembly for a file
-MLX90640_I2C_Driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.c.s
-.PHONY : MLX90640_I2C_Driver.c.s
+MLX90640_I2C_Driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/MLX90640_I2C_Driver.cpp.s
+.PHONY : MLX90640_I2C_Driver.cpp.s
 
 Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/naveen/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
@@ -1751,32 +1751,2435 @@ Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.obj: main.c.obj
+edge-impulse-sdk/classifier/ei_run_classifier_c.obj: edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj
+
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.obj
+
+# target to build an object file
+edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.obj
+
+edge-impulse-sdk/classifier/ei_run_classifier_c.i: edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i
+
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.i
+
+# target to preprocess a source file
+edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.i
+
+edge-impulse-sdk/classifier/ei_run_classifier_c.s: edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s
+
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s
+.PHONY : edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.s
+
+edge-impulse-sdk/dsp/dct/fast-dct-fft.obj: edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj
+
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.obj
+
+# target to build an object file
+edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.obj
+
+edge-impulse-sdk/dsp/dct/fast-dct-fft.i: edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i
+
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.i
+
+# target to preprocess a source file
+edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.i
+
+edge-impulse-sdk/dsp/dct/fast-dct-fft.s: edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s
+
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s
+.PHONY : edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.s
+
+edge-impulse-sdk/dsp/kissfft/kiss_fft.obj: edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.obj
+
+# target to build an object file
+edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.obj
+
+edge-impulse-sdk/dsp/kissfft/kiss_fft.i: edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.i
+
+# target to preprocess a source file
+edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.i
+
+edge-impulse-sdk/dsp/kissfft/kiss_fft.s: edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.s
+
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.obj: edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.obj
+
+# target to build an object file
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj
+
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.i: edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.i
+
+# target to preprocess a source file
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.i
+
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.s: edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s
+
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s
+.PHONY : edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.s
+
+edge-impulse-sdk/dsp/memory.obj: edge-impulse-sdk/dsp/memory.cpp.obj
+
+.PHONY : edge-impulse-sdk/dsp/memory.obj
+
+# target to build an object file
+edge-impulse-sdk/dsp/memory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.obj
+.PHONY : edge-impulse-sdk/dsp/memory.cpp.obj
+
+edge-impulse-sdk/dsp/memory.i: edge-impulse-sdk/dsp/memory.cpp.i
+
+.PHONY : edge-impulse-sdk/dsp/memory.i
+
+# target to preprocess a source file
+edge-impulse-sdk/dsp/memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.i
+.PHONY : edge-impulse-sdk/dsp/memory.cpp.i
+
+edge-impulse-sdk/dsp/memory.s: edge-impulse-sdk/dsp/memory.cpp.s
+
+.PHONY : edge-impulse-sdk/dsp/memory.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/dsp/memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/dsp/memory.cpp.s
+.PHONY : edge-impulse-sdk/dsp/memory.cpp.s
+
+edge-impulse-sdk/porting/arduino/debug_log.obj: edge-impulse-sdk/porting/arduino/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/arduino/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/arduino/debug_log.i: edge-impulse-sdk/porting/arduino/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/arduino/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.cpp.i
+
+edge-impulse-sdk/porting/arduino/debug_log.s: edge-impulse-sdk/porting/arduino/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/arduino/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/arduino/debug_log.cpp.s
+
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.obj: edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.i: edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.s: edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/arduino/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/ecm3532/debug_log.obj: edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/ecm3532/debug_log.i: edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.cpp.i
+
+edge-impulse-sdk/porting/ecm3532/debug_log.s: edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/ecm3532/debug_log.cpp.s
+
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.obj: edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.i: edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.s: edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/himax/debug_log.obj: edge-impulse-sdk/porting/himax/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/himax/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/himax/debug_log.i: edge-impulse-sdk/porting/himax/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/himax/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.cpp.i
+
+edge-impulse-sdk/porting/himax/debug_log.s: edge-impulse-sdk/porting/himax/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/himax/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/himax/debug_log.cpp.s
+
+edge-impulse-sdk/porting/himax/ei_classifier_porting.obj: edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/himax/ei_classifier_porting.i: edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/himax/ei_classifier_porting.s: edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/himax/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/mbed/debug_log.obj: edge-impulse-sdk/porting/mbed/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/mbed/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/mbed/debug_log.i: edge-impulse-sdk/porting/mbed/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/mbed/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.cpp.i
+
+edge-impulse-sdk/porting/mbed/debug_log.s: edge-impulse-sdk/porting/mbed/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/mbed/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/mbed/debug_log.cpp.s
+
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.obj: edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.i: edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.s: edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/mbed/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/mingw32/debug_log.obj: edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/mingw32/debug_log.i: edge-impulse-sdk/porting/mingw32/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/mingw32/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.cpp.i
+
+edge-impulse-sdk/porting/mingw32/debug_log.s: edge-impulse-sdk/porting/mingw32/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/mingw32/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/mingw32/debug_log.cpp.s
+
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.obj: edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.i: edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.s: edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/mingw32/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/posix/debug_log.obj: edge-impulse-sdk/porting/posix/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/posix/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/posix/debug_log.i: edge-impulse-sdk/porting/posix/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/posix/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.cpp.i
+
+edge-impulse-sdk/porting/posix/debug_log.s: edge-impulse-sdk/porting/posix/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/posix/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/posix/debug_log.cpp.s
+
+edge-impulse-sdk/porting/posix/ei_classifier_porting.obj: edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/posix/ei_classifier_porting.i: edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/posix/ei_classifier_porting.s: edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/posix/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/silabs/debug_log.obj: edge-impulse-sdk/porting/silabs/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/silabs/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/silabs/debug_log.i: edge-impulse-sdk/porting/silabs/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/silabs/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.cpp.i
+
+edge-impulse-sdk/porting/silabs/debug_log.s: edge-impulse-sdk/porting/silabs/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/silabs/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/silabs/debug_log.cpp.s
+
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.obj: edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.i: edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.s: edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/silabs/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.obj: edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.i: edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.i
+
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.s: edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/debug_log.cpp.s
+
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.obj: edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.i: edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.s: edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/porting/zephyr/debug_log.obj: edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.cpp.obj
+
+edge-impulse-sdk/porting/zephyr/debug_log.i: edge-impulse-sdk/porting/zephyr/debug_log.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/zephyr/debug_log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.i
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.cpp.i
+
+edge-impulse-sdk/porting/zephyr/debug_log.s: edge-impulse-sdk/porting/zephyr/debug_log.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/zephyr/debug_log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/debug_log.cpp.s
+.PHONY : edge-impulse-sdk/porting/zephyr/debug_log.cpp.s
+
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.obj: edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj
+
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.obj
+
+# target to build an object file
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.obj
+
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.i: edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i
+
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.i
+
+# target to preprocess a source file
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.i
+
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.s: edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s
+
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s
+.PHONY : edge-impulse-sdk/porting/zephyr/ei_classifier_porting.cpp.s
+
+edge-impulse-sdk/tensorflow/lite/c/common.obj: edge-impulse-sdk/tensorflow/lite/c/common.c.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/c/common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.c.obj
+
+edge-impulse-sdk/tensorflow/lite/c/common.i: edge-impulse-sdk/tensorflow/lite/c/common.c.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/c/common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.c.i
+
+edge-impulse-sdk/tensorflow/lite/c/common.s: edge-impulse-sdk/tensorflow/lite/c/common.c.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/c/common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/c/common.c.s
+
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.obj: edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.i: edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.i
+
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.s: edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.s
+
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.obj: edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.i: edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.i
+
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.s: edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.s
+
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.obj: edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.i: edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.i
+
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.s: edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.s
+
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.obj: edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.i: edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.i
+
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.s: edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.s
+
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.obj: edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.i: edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.i
+
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.s: edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.s
+
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.obj: edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.i: edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.i
+
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.s: edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.obj: edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.i: edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.s: edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.obj: edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.i: edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.s: edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.obj: edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.i: edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.s: edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.i: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.s: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.i: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.s: edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.i: edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.s: edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.i: edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.s: edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.i: edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.s: edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.i: edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.s: edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.i: edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.s: edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.i: edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.s: edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_string.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.i: edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.s: edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_time.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.obj: edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.i: edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.s: edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.obj: edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.i: edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.s: edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.obj: edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.i: edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.s: edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.obj: edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.i: edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.s: edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.obj: edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.i: edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.s: edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.obj: edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.i: edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.s: edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cc.s
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.obj: edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.obj
+
+# target to build an object file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.obj
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.i: edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.i
+
+# target to preprocess a source file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.i
+
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.s: edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s
+
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s
+.PHONY : edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cc.s
+
+ei_classifier_porting.obj: ei_classifier_porting.cpp.obj
+
+.PHONY : ei_classifier_porting.obj
+
+# target to build an object file
+ei_classifier_porting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.obj
+.PHONY : ei_classifier_porting.cpp.obj
+
+ei_classifier_porting.i: ei_classifier_porting.cpp.i
+
+.PHONY : ei_classifier_porting.i
+
+# target to preprocess a source file
+ei_classifier_porting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.i
+.PHONY : ei_classifier_porting.cpp.i
+
+ei_classifier_porting.s: ei_classifier_porting.cpp.s
+
+.PHONY : ei_classifier_porting.s
+
+# target to generate assembly for a file
+ei_classifier_porting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/ei_classifier_porting.cpp.s
+.PHONY : ei_classifier_porting.cpp.s
+
+main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+tflite-model/trained_model_compiled.obj: tflite-model/trained_model_compiled.cpp.obj
+
+.PHONY : tflite-model/trained_model_compiled.obj
+
+# target to build an object file
+tflite-model/trained_model_compiled.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.obj
+.PHONY : tflite-model/trained_model_compiled.cpp.obj
+
+tflite-model/trained_model_compiled.i: tflite-model/trained_model_compiled.cpp.i
+
+.PHONY : tflite-model/trained_model_compiled.i
+
+# target to preprocess a source file
+tflite-model/trained_model_compiled.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.i
+.PHONY : tflite-model/trained_model_compiled.cpp.i
+
+tflite-model/trained_model_compiled.s: tflite-model/trained_model_compiled.cpp.s
+
+.PHONY : tflite-model/trained_model_compiled.s
+
+# target to generate assembly for a file
+tflite-model/trained_model_compiled.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_person_detection_thermal.dir/build.make CMakeFiles/pico_person_detection_thermal.dir/tflite-model/trained_model_compiled.cpp.s
+.PHONY : tflite-model/trained_model_compiled.cpp.s
 
 # Help Target
 help:
@@ -1964,9 +4367,276 @@ help:
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/naveen/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... edge-impulse-sdk/classifier/ei_run_classifier_c.obj"
+	@echo "... edge-impulse-sdk/classifier/ei_run_classifier_c.i"
+	@echo "... edge-impulse-sdk/classifier/ei_run_classifier_c.s"
+	@echo "... edge-impulse-sdk/dsp/dct/fast-dct-fft.obj"
+	@echo "... edge-impulse-sdk/dsp/dct/fast-dct-fft.i"
+	@echo "... edge-impulse-sdk/dsp/dct/fast-dct-fft.s"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fft.obj"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fft.i"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fft.s"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fftr.obj"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fftr.i"
+	@echo "... edge-impulse-sdk/dsp/kissfft/kiss_fftr.s"
+	@echo "... edge-impulse-sdk/dsp/memory.obj"
+	@echo "... edge-impulse-sdk/dsp/memory.i"
+	@echo "... edge-impulse-sdk/dsp/memory.s"
+	@echo "... edge-impulse-sdk/porting/arduino/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/arduino/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/arduino/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/arduino/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/arduino/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/arduino/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/ecm3532/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/ecm3532/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/ecm3532/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/ecm3532/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/himax/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/himax/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/himax/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/himax/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/himax/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/himax/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/mbed/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/mbed/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/mbed/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/mbed/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/mbed/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/mbed/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/mingw32/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/mingw32/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/mingw32/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/mingw32/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/mingw32/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/mingw32/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/posix/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/posix/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/posix/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/posix/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/posix/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/posix/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/silabs/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/silabs/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/silabs/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/silabs/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/silabs/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/silabs/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/stm32-cubeai/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/porting/zephyr/debug_log.obj"
+	@echo "... edge-impulse-sdk/porting/zephyr/debug_log.i"
+	@echo "... edge-impulse-sdk/porting/zephyr/debug_log.s"
+	@echo "... edge-impulse-sdk/porting/zephyr/ei_classifier_porting.obj"
+	@echo "... edge-impulse-sdk/porting/zephyr/ei_classifier_porting.i"
+	@echo "... edge-impulse-sdk/porting/zephyr/ei_classifier_porting.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/c/common.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/c/common.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/c/common.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/add.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/add.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/add.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/round.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/round.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/round.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/split.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/split.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/split.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_string.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_string.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_string.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_time.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_time.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_time.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_utils.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_utils.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/micro_utils.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.s"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.obj"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.i"
+	@echo "... edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.s"
+	@echo "... ei_classifier_porting.obj"
+	@echo "... ei_classifier_porting.i"
+	@echo "... ei_classifier_porting.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tflite-model/trained_model_compiled.obj"
+	@echo "... tflite-model/trained_model_compiled.i"
+	@echo "... tflite-model/trained_model_compiled.s"
 .PHONY : help
 
 
