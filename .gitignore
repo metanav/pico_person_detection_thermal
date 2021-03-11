@@ -52,4 +52,4 @@ Mkfile.old
 dkms.conf
 
 
-build/pico_person_detection_thermal.*
+build/*
