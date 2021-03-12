@@ -4,7 +4,7 @@
 #include "MLX90640_API.h"
 #include "MLX90640_I2C_Driver.h"
 #include "ei_run_classifier.h"
-#include "raw_features.h"
+//#include "raw_features.h"
 
 #define I2C_SDA 8
 #define I2C_SCL 9
@@ -14,6 +14,7 @@
 static float mlx90640To[INPUT_LENGTH];
 paramsMLX90640 mlx90640;
 static uint8_t MLX90640_address = 0x33; //Default 7-bit unshifted address of the MLX90640
+float features[INPUT_LENGTH];
 
 int raw_feature_get_data(size_t offset, size_t length, float *out_ptr) {
     memcpy(out_ptr, features + offset, length * sizeof(float));
@@ -45,7 +46,7 @@ bool init_thermal_camera()
     return true; 
 }
 
-float get_thermal_image(float* input, int length) 
+bool get_thermal_readings(float* input, int length) 
 { 
     //Read both subpages 
     for (uint8_t x = 0 ; x < 2 ; x++){
@@ -53,7 +54,7 @@ float get_thermal_image(float* input, int length)
         int status = MLX90640_GetFrameData(MLX90640_address, mlx90640Frame);
         if (status < 0) {
             printf("GetFrame Error: %d\n", status);
-            return -100.0; // return big enough negative value to show error
+            return false;
         }
 
         float vdd = MLX90640_GetVdd(mlx90640Frame, &mlx90640);
@@ -66,18 +67,14 @@ float get_thermal_image(float* input, int length)
     }
 
     int i = 0;
-    float max_temp = 0.0;
     for (uint8_t x = 0; x < 32; x++) {
         for (uint8_t y = 0; y < 24; y++) {
             input[i] = mlx90640To[24 * x + y];
-            if (input[i] > max_temp) {
-                max_temp = input[i];
-            }
             i++;
         }
     }
 
-    return max_temp;
+    return true;
 }
 
 int main()
@@ -95,31 +92,33 @@ int main()
         return 1;
     }
 
-    float input[INPUT_LENGTH];
 
-    if (sizeof(features) / sizeof(float) != EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE) {
-        printf("The size of your 'features' array is not correct. Expected %d items, but had %u\n",
-        EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE, sizeof(features) / sizeof(float));
-        return 1;
-    }
 
     ei_impulse_result_t result = { 0 };
+    signal_t features_signal;
+    features_signal.total_length = sizeof(features) / sizeof(features[0]);
+    features_signal.get_data = &raw_feature_get_data;
 
     while (1) {
-        float max_reading = get_thermal_image(input, INPUT_LENGTH);
-        printf("Max. Temp = %0.2f\n", max_reading);
-        signal_t features_signal;
-        features_signal.total_length = sizeof(features) / sizeof(features[0]);
-        features_signal.get_data = &raw_feature_get_data;
+        if (! get_thermal_readings(features, INPUT_LENGTH)) {
+            sleep_ms(100);
+            continue;
+        }
 
+        if (sizeof(features) / sizeof(float) != EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE) {
+            printf("The size of your 'features' array is not correct. Expected %d items, but had %u\n",
+               EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE, sizeof(features) / sizeof(float));
+            printf("Exited.");
+            return 1;
+        }
         // invoke the impulse
-        EI_IMPULSE_ERROR res = run_classifier(&features_signal, &result, true);
+        EI_IMPULSE_ERROR res = run_classifier(&features_signal, &result, false);
         printf("run_classifier returned: %d\n", res);
 
         if (res != 0) return 1;
 
-        printf("Predictions (DSP: %d ms., Classification: %d ms., Anomaly: %d ms.): \n",
-            result.timing.dsp, result.timing.classification, result.timing.anomaly);
+        printf("Predictions (DSP: %d ms., Classification: %d ms.): \n",
+            result.timing.dsp, result.timing.classification);
 
         // print the predictions
         printf("[");
