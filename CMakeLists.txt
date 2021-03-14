@@ -20,7 +20,12 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(pico_person_detection_thermal main.cpp ei_classifier_porting.cpp MLX90640_I2C_Driver.cpp MLX90640_API.cpp)
+add_executable(pico_person_detection_thermal 
+               main.cpp 
+               ei_classifier_porting.cpp 
+               MLX90640_I2C_Driver.cpp 
+               MLX90640_API.cpp
+               ILI9341.cpp)
 
 pico_set_program_name(pico_person_detection_thermal "pico_person_detection_thermal")
 pico_set_program_version(pico_person_detection_thermal "0.1")
@@ -55,7 +60,7 @@ target_link_libraries(pico_person_detection_thermal pico_stdlib)
 # Add any user requested libraries
 target_link_libraries(pico_person_detection_thermal
         hardware_i2c
-        )
+        hardware_spi)
 
 pico_add_extra_outputs(pico_person_detection_thermal)
 

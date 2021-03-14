@@ -3,8 +3,8 @@
 #include "pico/stdlib.h"
 #include "MLX90640_API.h"
 #include "MLX90640_I2C_Driver.h"
+#include "ILI9341.h"
 #include "ei_run_classifier.h"
-//#include "raw_features.h"
 
 #define I2C_SDA 8
 #define I2C_SCL 9
@@ -67,12 +67,39 @@ bool get_thermal_readings(float* input, int length)
     }
 
     int i = 0;
+    float val;
+    uint16_t color;
+
+    clear_buffer();
+
     for (uint8_t x = 0; x < 32; x++) {
         for (uint8_t y = 0; y < 24; y++) {
             input[i] = mlx90640To[24 * x + y];
             i++;
+            val = mlx90640To[32 * (23 - y) + x];
+            if (val > 99.99) val = 99.99;
+
+            if (val > 40.0) {
+              color = ILI9341_WHITE;
+            } else if (val > 32.0) {
+              color = ILI9341_RED;
+            } else if (val > 29.0) {
+              color = ILI9341_ORANGE;
+            } else if ( val > 26.0 ) {
+              color = ILI9341_YELLOW;
+            } else if ( val > 23.0 ) {
+              color = ILI9341_GREEN;
+            } else if ( val > 20.0 ) {
+              color = ILI9341_BLUE;
+            } else {
+              color = ILI9341_BLACK;
+            }
+
+            draw_rectangle(y * 10, x * 10, 10, 10, color);
         }
     }
+
+    write_buffer();
 
     return true;
 }
@@ -80,7 +107,12 @@ bool get_thermal_readings(float* input, int length)
 int main()
 {
     stdio_init_all();
-    while (!tud_cdc_connected()) { sleep_ms(100);  }
+    //while (!tud_cdc_connected()) { sleep_ms(100);  }
+    sleep_ms(1000);
+
+    const uint LED_PIN = 3;
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
 
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
@@ -92,7 +124,9 @@ int main()
         return 1;
     }
 
-
+    init_SPI();
+    init_display();
+    init_drawing();
 
     ei_impulse_result_t result = { 0 };
     signal_t features_signal;
@@ -104,6 +138,7 @@ int main()
             sleep_ms(100);
             continue;
         }
+
 
         if (sizeof(features) / sizeof(float) != EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE) {
             printf("The size of your 'features' array is not correct. Expected %d items, but had %u\n",
@@ -130,7 +165,15 @@ int main()
         }
         printf("]\n");
 
-        sleep_ms(250);
+        // On person detected, turn LED on
+        if (result.classification[2].value >= 0.90f) {
+            printf("Person Detected!");
+            gpio_put(LED_PIN, 1);
+        } else {
+            gpio_put(LED_PIN, 0);
+        }
+
+        sleep_ms(50);
     }
     return 0;
 }
